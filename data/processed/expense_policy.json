@@ -1,0 +1,690 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "page": null,
+      "type": "Title",
+      "text": "Expense and Travel Policy",
+      "section_path": "Expense and Travel Policy"
+    },
+    {
+      "id": 1,
+      "page": null,
+      "type": "Title",
+      "text": "Aurora Retail Holdings",
+      "section_path": "Aurora Retail Holdings"
+    },
+    {
+      "id": 2,
+      "page": null,
+      "type": "Title",
+      "text": "Effective Date: January 1, 2024",
+      "section_path": "Effective Date: January 1, 2024"
+    },
+    {
+      "id": 3,
+      "page": null,
+      "type": "Title",
+      "text": "Owner: Corporate Finance – Accounts Payable",
+      "section_path": "Owner: Corporate Finance – Accounts Payable"
+    },
+    {
+      "id": 4,
+      "page": null,
+      "type": "ListItem",
+      "text": "1. Purpose and Scope",
+      "section_path": "1. Purpose and Scope"
+    },
+    {
+      "id": 5,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.1 The purpose of this Expense and Travel Policy is to provide clear guidelines for incurring, approving, and reimbursing business expenses on behalf of Aurora Retail Holdings (“the Company”).",
+      "section_path": "1.1 The purpose of this Expense and Travel Policy is to provide clear guidelines for incurring, approving, and reimbursing business expenses on behalf of Aurora Retail Holdings (“the Company”)."
+    },
+    {
+      "id": 6,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.2 The policy applies to all employees, contractors, and officers who incur expenses that will be charged to the Company.",
+      "section_path": "1.2 The policy applies to all employees, contractors, and officers who incur expenses that will be charged to the Company."
+    },
+    {
+      "id": 7,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.3 The objectives are to:",
+      "section_path": "1.3 The objectives are to:"
+    },
+    {
+      "id": 8,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Ensure expenses are reasonable, necessary, and directly related to Company business;",
+      "section_path": "1.3 The objectives are to:"
+    },
+    {
+      "id": 9,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Promote consistent treatment across departments; and",
+      "section_path": "1.3 The objectives are to:"
+    },
+    {
+      "id": 10,
+      "page": null,
+      "type": "Title",
+      "text": "c) Facilitate timely and accurate reimbursement and accounting.",
+      "section_path": "c) Facilitate timely and accurate reimbursement and accounting."
+    },
+    {
+      "id": 11,
+      "page": null,
+      "type": "ListItem",
+      "text": "2. Allowable vs. Non‑Allowable Expenses",
+      "section_path": "2. Allowable vs. Non‑Allowable Expenses"
+    },
+    {
+      "id": 12,
+      "page": null,
+      "type": "Title",
+      "text": "2.1 Allowable expenses",
+      "section_path": "2.1 Allowable expenses"
+    },
+    {
+      "id": 13,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.1.1 Examples of allowable business expenses include:",
+      "section_path": "2.1.1 Examples of allowable business expenses include:"
+    },
+    {
+      "id": 14,
+      "page": null,
+      "type": "Title",
+      "text": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)",
+      "section_path": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)"
+    },
+    {
+      "id": 15,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Lodging during approved business trips",
+      "section_path": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)"
+    },
+    {
+      "id": 16,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Meals and reasonable incidentals while traveling",
+      "section_path": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)"
+    },
+    {
+      "id": 17,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "d) Registration fees for approved conferences or training",
+      "section_path": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)"
+    },
+    {
+      "id": 18,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "e) Modest client entertainment where business is discussed",
+      "section_path": "a) Transportation for business travel (air, rail, rideshare, mileage for personal vehicles)"
+    },
+    {
+      "id": 19,
+      "page": null,
+      "type": "Title",
+      "text": "2.1.2 All allowable expenses must:",
+      "section_path": "2.1.2 All allowable expenses must:"
+    },
+    {
+      "id": 20,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Have a clear business purpose;",
+      "section_path": "2.1.2 All allowable expenses must:"
+    },
+    {
+      "id": 21,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Be supported by itemized receipts; and",
+      "section_path": "2.1.2 All allowable expenses must:"
+    },
+    {
+      "id": 22,
+      "page": null,
+      "type": "Title",
+      "text": "c) Comply with this policy and any local regulations.",
+      "section_path": "c) Comply with this policy and any local regulations."
+    },
+    {
+      "id": 23,
+      "page": null,
+      "type": "Title",
+      "text": "2.2 Non‑allowable expenses",
+      "section_path": "2.2 Non‑allowable expenses"
+    },
+    {
+      "id": 24,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.2.1 The following are typically not reimbursable:",
+      "section_path": "2.2.1 The following are typically not reimbursable:"
+    },
+    {
+      "id": 25,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Personal travel or vacation days added to a business trip (incremental cost)",
+      "section_path": "2.2.1 The following are typically not reimbursable:"
+    },
+    {
+      "id": 26,
+      "page": null,
+      "type": "Title",
+      "text": "b) Luxury or premium upgrades (e.g., first‑class air, luxury hotels) without pre‑approval",
+      "section_path": "b) Luxury or premium upgrades (e.g., first‑class air, luxury hotels) without pre‑approval"
+    },
+    {
+      "id": 27,
+      "page": null,
+      "type": "Title",
+      "text": "c) Fines or penalties (e.g., parking tickets)",
+      "section_path": "c) Fines or penalties (e.g., parking tickets)"
+    },
+    {
+      "id": 28,
+      "page": null,
+      "type": "Title",
+      "text": "d) Alcohol in excess of modest, business‑appropriate consumption",
+      "section_path": "d) Alcohol in excess of modest, business‑appropriate consumption"
+    },
+    {
+      "id": 29,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "e) Family member travel, unless pre‑approved in writing by an Executive",
+      "section_path": "d) Alcohol in excess of modest, business‑appropriate consumption"
+    },
+    {
+      "id": 30,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.2.2 If employees are unsure whether an expense is allowable, they should consult their manager or Accounts Payable before incurring the expense.",
+      "section_path": "2.2.2 If employees are unsure whether an expense is allowable, they should consult their manager or Accounts Payable before incurring the expense."
+    },
+    {
+      "id": 31,
+      "page": null,
+      "type": "ListItem",
+      "text": "3. Travel Booking Rules",
+      "section_path": "3. Travel Booking Rules"
+    },
+    {
+      "id": 32,
+      "page": null,
+      "type": "Title",
+      "text": "3.1 General principles",
+      "section_path": "3.1 General principles"
+    },
+    {
+      "id": 33,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.1.1 Employees should book travel as early as practical to secure competitive rates.",
+      "section_path": "3.1.1 Employees should book travel as early as practical to secure competitive rates."
+    },
+    {
+      "id": 34,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.1.2 Economy class is the standard for air and rail travel. Premium cabins may be approved for:",
+      "section_path": "3.1.2 Economy class is the standard for air and rail travel. Premium cabins may be approved for:"
+    },
+    {
+      "id": 35,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Flights exceeding 8 hours; or",
+      "section_path": "3.1.2 Economy class is the standard for air and rail travel. Premium cabins may be approved for:"
+    },
+    {
+      "id": 36,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Medical reasons documented with HR; or",
+      "section_path": "3.1.2 Economy class is the standard for air and rail travel. Premium cabins may be approved for:"
+    },
+    {
+      "id": 37,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Executive‑level travel where required for security or productivity.",
+      "section_path": "3.1.2 Economy class is the standard for air and rail travel. Premium cabins may be approved for:"
+    },
+    {
+      "id": 38,
+      "page": null,
+      "type": "Title",
+      "text": "3.2 Lodging",
+      "section_path": "3.2 Lodging"
+    },
+    {
+      "id": 39,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.2.1 Employees should book mid‑range business hotels near the work location or event.",
+      "section_path": "3.2.1 Employees should book mid‑range business hotels near the work location or event."
+    },
+    {
+      "id": 40,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.2.2 Hotel upgrades (e.g., suites, club floors) are not reimbursable unless:",
+      "section_path": "3.2.2 Hotel upgrades (e.g., suites, club floors) are not reimbursable unless:"
+    },
+    {
+      "id": 41,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) The upgraded room is the only available option; or",
+      "section_path": "3.2.2 Hotel upgrades (e.g., suites, club floors) are not reimbursable unless:"
+    },
+    {
+      "id": 42,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Pre‑approved by a VP or above for client hosting.",
+      "section_path": "3.2.2 Hotel upgrades (e.g., suites, club floors) are not reimbursable unless:"
+    },
+    {
+      "id": 43,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.2.3 All incidental hotel charges (room service, mini‑bar, movies) must be itemized. Personal entertainment costs are not reimbursable.",
+      "section_path": "3.2.3 All incidental hotel charges (room service, mini‑bar, movies) must be itemized. Personal entertainment costs are not reimbursable."
+    },
+    {
+      "id": 44,
+      "page": null,
+      "type": "Title",
+      "text": "3.3 Ground transportation",
+      "section_path": "3.3 Ground transportation"
+    },
+    {
+      "id": 45,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.3.1 Employees should choose the most cost‑effective option considering safety and time:",
+      "section_path": "3.3.1 Employees should choose the most cost‑effective option considering safety and time:"
+    },
+    {
+      "id": 46,
+      "page": null,
+      "type": "Title",
+      "text": "a) Public transit",
+      "section_path": "a) Public transit"
+    },
+    {
+      "id": 47,
+      "page": null,
+      "type": "Title",
+      "text": "b) Rideshare or taxis",
+      "section_path": "b) Rideshare or taxis"
+    },
+    {
+      "id": 48,
+      "page": null,
+      "type": "Title",
+      "text": "c) Rental cars where appropriate for the location and itinerary",
+      "section_path": "c) Rental cars where appropriate for the location and itinerary"
+    },
+    {
+      "id": 49,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.3.2 When renting a car:",
+      "section_path": "3.3.2 When renting a car:"
+    },
+    {
+      "id": 50,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Compact or mid‑size is the standard class",
+      "section_path": "3.3.2 When renting a car:"
+    },
+    {
+      "id": 51,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Additional insurance should only be purchased where required by local law or if personal coverage is not available",
+      "section_path": "3.3.2 When renting a car:"
+    },
+    {
+      "id": 52,
+      "page": null,
+      "type": "ListItem",
+      "text": "4. Reimbursement Process and Timelines",
+      "section_path": "4. Reimbursement Process and Timelines"
+    },
+    {
+      "id": 53,
+      "page": null,
+      "type": "Title",
+      "text": "4.1 Expense submission",
+      "section_path": "4.1 Expense submission"
+    },
+    {
+      "id": 54,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.1.1 Employees must submit expense reports within 30 days of incurring the expense or returning from a trip.",
+      "section_path": "4.1.1 Employees must submit expense reports within 30 days of incurring the expense or returning from a trip."
+    },
+    {
+      "id": 55,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.1.2 Expense reports must include:",
+      "section_path": "4.1.2 Expense reports must include:"
+    },
+    {
+      "id": 56,
+      "page": null,
+      "type": "Title",
+      "text": "a) Date and description of each expense",
+      "section_path": "a) Date and description of each expense"
+    },
+    {
+      "id": 57,
+      "page": null,
+      "type": "Title",
+      "text": "b) Business purpose",
+      "section_path": "b) Business purpose"
+    },
+    {
+      "id": 58,
+      "page": null,
+      "type": "Title",
+      "text": "c) Project or cost center code",
+      "section_path": "c) Project or cost center code"
+    },
+    {
+      "id": 59,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "d) Scanned itemized receipts for all expenses greater than or equal to USD 25",
+      "section_path": "c) Project or cost center code"
+    },
+    {
+      "id": 60,
+      "page": null,
+      "type": "Title",
+      "text": "4.2 Payment timing",
+      "section_path": "4.2 Payment timing"
+    },
+    {
+      "id": 61,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.2.1 Approved expense reports will be reimbursed via payroll or direct deposit within 10 business days of final approval.",
+      "section_path": "4.2.1 Approved expense reports will be reimbursed via payroll or direct deposit within 10 business days of final approval."
+    },
+    {
+      "id": 62,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.2.2 Reimbursement delays due to missing documentation are the responsibility of the submitter.",
+      "section_path": "4.2.2 Reimbursement delays due to missing documentation are the responsibility of the submitter."
+    },
+    {
+      "id": 63,
+      "page": null,
+      "type": "Title",
+      "text": "4.3 Currency and exchange rates",
+      "section_path": "4.3 Currency and exchange rates"
+    },
+    {
+      "id": 64,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3.1 Foreign currency expenses should be converted using:",
+      "section_path": "4.3.1 Foreign currency expenses should be converted using:"
+    },
+    {
+      "id": 65,
+      "page": null,
+      "type": "Title",
+      "text": "a) The rate on the credit card statement; or",
+      "section_path": "a) The rate on the credit card statement; or"
+    },
+    {
+      "id": 66,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) A reasonable published rate on the date of the transaction.",
+      "section_path": "a) The rate on the credit card statement; or"
+    },
+    {
+      "id": 67,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3.2 Employees must not manipulate exchange rates to increase reimbursement.",
+      "section_path": "4.3.2 Employees must not manipulate exchange rates to increase reimbursement."
+    },
+    {
+      "id": 68,
+      "page": null,
+      "type": "ListItem",
+      "text": "5. Approval Workflow",
+      "section_path": "5. Approval Workflow"
+    },
+    {
+      "id": 69,
+      "page": null,
+      "type": "Title",
+      "text": "5.1 Manager approval",
+      "section_path": "5.1 Manager approval"
+    },
+    {
+      "id": 70,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.1.1 All expense reports must be reviewed and approved by the employee’s direct manager or designated approver.",
+      "section_path": "5.1.1 All expense reports must be reviewed and approved by the employee’s direct manager or designated approver."
+    },
+    {
+      "id": 71,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.1.2 Managers are responsible for verifying:",
+      "section_path": "5.1.2 Managers are responsible for verifying:"
+    },
+    {
+      "id": 72,
+      "page": null,
+      "type": "Title",
+      "text": "a) Business relevance of the expense",
+      "section_path": "a) Business relevance of the expense"
+    },
+    {
+      "id": 73,
+      "page": null,
+      "type": "Title",
+      "text": "b) Compliance with this policy",
+      "section_path": "b) Compliance with this policy"
+    },
+    {
+      "id": 74,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Correct coding to cost centers or projects",
+      "section_path": "b) Compliance with this policy"
+    },
+    {
+      "id": 75,
+      "page": null,
+      "type": "Title",
+      "text": "5.2 Additional approvals",
+      "section_path": "5.2 Additional approvals"
+    },
+    {
+      "id": 76,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.2.1 The following require pre‑approval from a VP or above:",
+      "section_path": "5.2.1 The following require pre‑approval from a VP or above:"
+    },
+    {
+      "id": 77,
+      "page": null,
+      "type": "Title",
+      "text": "a) International travel",
+      "section_path": "a) International travel"
+    },
+    {
+      "id": 78,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Conference attendance with a total cost exceeding USD 5,000",
+      "section_path": "a) International travel"
+    },
+    {
+      "id": 79,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Client entertainment expected to exceed USD 1,000",
+      "section_path": "a) International travel"
+    },
+    {
+      "id": 80,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.2.2 Exceptions for non‑allowable expenses require written approval from both:",
+      "section_path": "5.2.2 Exceptions for non‑allowable expenses require written approval from both:"
+    },
+    {
+      "id": 81,
+      "page": null,
+      "type": "Title",
+      "text": "a) The relevant VP; and",
+      "section_path": "a) The relevant VP; and"
+    },
+    {
+      "id": 82,
+      "page": null,
+      "type": "Title",
+      "text": "b) The Controller or their delegate.",
+      "section_path": "b) The Controller or their delegate."
+    },
+    {
+      "id": 83,
+      "page": null,
+      "type": "ListItem",
+      "text": "6. Policy Exceptions",
+      "section_path": "6. Policy Exceptions"
+    },
+    {
+      "id": 84,
+      "page": null,
+      "type": "Title",
+      "text": "6.1 Exception process",
+      "section_path": "6.1 Exception process"
+    },
+    {
+      "id": 85,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.1.1 When business needs require deviation from this policy (e.g., last‑minute bookings, limited lodging options), employees should:",
+      "section_path": "6.1.1 When business needs require deviation from this policy (e.g., last‑minute bookings, limited lodging options), employees should:"
+    },
+    {
+      "id": 86,
+      "page": null,
+      "type": "Title",
+      "text": "a) Document the reason for the exception; and",
+      "section_path": "a) Document the reason for the exception; and"
+    },
+    {
+      "id": 87,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Obtain written pre‑approval from their manager or VP where practical.",
+      "section_path": "a) Document the reason for the exception; and"
+    },
+    {
+      "id": 88,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.1.2 In urgent situations where pre‑approval is not possible, the exception and justification should be documented in the expense report for after‑the‑fact review.",
+      "section_path": "6.1.2 In urgent situations where pre‑approval is not possible, the exception and justification should be documented in the expense report for after‑the‑fact review."
+    },
+    {
+      "id": 89,
+      "page": null,
+      "type": "Title",
+      "text": "6.2 Review and enforcement",
+      "section_path": "6.2 Review and enforcement"
+    },
+    {
+      "id": 90,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.2.1 Accounts Payable may reject or adjust expenses that do not comply with this policy.",
+      "section_path": "6.2.1 Accounts Payable may reject or adjust expenses that do not comply with this policy."
+    },
+    {
+      "id": 91,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.2.2 Repeated non‑compliance may result in:",
+      "section_path": "6.2.2 Repeated non‑compliance may result in:"
+    },
+    {
+      "id": 92,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Delayed reimbursements",
+      "section_path": "6.2.2 Repeated non‑compliance may result in:"
+    },
+    {
+      "id": 93,
+      "page": null,
+      "type": "Title",
+      "text": "b) Escalation to HR",
+      "section_path": "b) Escalation to HR"
+    },
+    {
+      "id": 94,
+      "page": null,
+      "type": "Title",
+      "text": "c) Disciplinary action for misuse of Company funds",
+      "section_path": "c) Disciplinary action for misuse of Company funds"
+    },
+    {
+      "id": 95,
+      "page": null,
+      "type": "ListItem",
+      "text": "7. Policy Review",
+      "section_path": "7. Policy Review"
+    },
+    {
+      "id": 96,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "7.1 This policy will be reviewed annually by Finance and HR.",
+      "section_path": "7.1 This policy will be reviewed annually by Finance and HR."
+    },
+    {
+      "id": 97,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "7.2 Updates will be communicated via email and posted on the Company intranet.",
+      "section_path": "7.2 Updates will be communicated via email and posted on the Company intranet."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-rag"
+version = "0.1.0"
+description = "A Hybrid Vectorless + Vector RAG System for Finance Documents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "pypdf>=6.10.2",
+    "python-dotenv>=1.2.2",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.4.1",
+    "tqdm>=4.67.3",
+    "unstructured[pdf]>=0.22.27",
+    "torch>=2.0.0",
+    "transformers>=4.36.0",
+    "accelerate>=0.25.0",
+    "streamlit>=1.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.9.0",
+    "ruff>=0.13.0",
+]
+
+[tool.uv]
+# Optimize uv behavior for faster installation
+# Use inline-table format for tool config
+[tool.uv.pip]
+# Enable faster dependency resolution
+no-deps = false
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

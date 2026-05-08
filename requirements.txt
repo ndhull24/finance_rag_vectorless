@@ -1,0 +1,13 @@
+unstructured[chardet,pdf] #used to process the non-tabular data
+# such as PDFs, emails, HTML, and documents—into a structured, vectorized format (JSON) that LLMs can query.
+chromadb # serves as the "long-term memory" or vector store. max batch size of 5461
+sentence-transformers #act as the semantic embedding backbone in Retrieval-Augmented Generation (RAG) pipelines, converting documents and user queries into dense vectors for accurate retrieval.
+rank-bm25 # used for traditional information retrieval tasks.
+pypdf # used for processing PDF files.
+tqdm # used for displaying progress bars.
+python-dotenv # used for managing environment variables.
+unstructured_inference # used for performing inference on unstructured data.
+transformers>=4.40.0 # used for working with transformer models, such as those from Hugging Face.
+accelerate # used for optimizing and accelerating the training and inference of machine learning models.
+torch # used for deep learning tasks, such as training and inference of neural networks.
+streamlit # used for building interactive web applications.

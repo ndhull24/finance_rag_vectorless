@@ -1,0 +1,606 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "page": null,
+      "type": "Title",
+      "text": "Capitalization Policy",
+      "section_path": "Capitalization Policy"
+    },
+    {
+      "id": 1,
+      "page": null,
+      "type": "Title",
+      "text": "Aurora Retail Holdings",
+      "section_path": "Aurora Retail Holdings"
+    },
+    {
+      "id": 2,
+      "page": null,
+      "type": "Title",
+      "text": "Effective Date: January 1, 2024",
+      "section_path": "Effective Date: January 1, 2024"
+    },
+    {
+      "id": 3,
+      "page": null,
+      "type": "Title",
+      "text": "Owner: Corporate Finance – Controller’s Office",
+      "section_path": "Owner: Corporate Finance – Controller’s Office"
+    },
+    {
+      "id": 4,
+      "page": null,
+      "type": "ListItem",
+      "text": "1. Purpose",
+      "section_path": "1. Purpose"
+    },
+    {
+      "id": 5,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.1 The purpose of this Capitalization Policy is to establish consistent criteria for determining when expenditures are recorded as capital assets versus current period expenses.",
+      "section_path": "1.1 The purpose of this Capitalization Policy is to establish consistent criteria for determining when expenditures are recorded as capital assets versus current period expenses."
+    },
+    {
+      "id": 6,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.2 A clear and consistently applied capitalization policy improves the quality and comparability of Aurora Retail Holdings’ financial statements and supports compliance with applicable accounting standards (e.g., US GAAP or IFRS, as adopted by the Company).",
+      "section_path": "1.2 A clear and consistently applied capitalization policy improves the quality and comparability of Aurora Retail Holdings’ financial statements and supports compliance with applicable accounting standards (e.g., US GAAP or IFRS, as adopted by the Company)."
+    },
+    {
+      "id": 7,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "1.3 This policy is intended for use by Finance, Accounting, Procurement, and any team that initiates or approves spend related to property, equipment, software, and other long-lived assets.",
+      "section_path": "1.3 This policy is intended for use by Finance, Accounting, Procurement, and any team that initiates or approves spend related to property, equipment, software, and other long-lived assets."
+    },
+    {
+      "id": 8,
+      "page": null,
+      "type": "ListItem",
+      "text": "2. Scope",
+      "section_path": "2. Scope"
+    },
+    {
+      "id": 9,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.1 This policy applies to all entities and business units consolidated into Aurora Retail Holdings’ financial statements.",
+      "section_path": "2.1 This policy applies to all entities and business units consolidated into Aurora Retail Holdings’ financial statements."
+    },
+    {
+      "id": 10,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.2 The policy covers tangible fixed assets (e.g., leasehold improvements, fixtures, IT hardware, warehouse equipment) and intangible assets (e.g., internally developed software, purchased software licenses with multi‑year benefit).",
+      "section_path": "2.2 The policy covers tangible fixed assets (e.g., leasehold improvements, fixtures, IT hardware, warehouse equipment) and intangible assets (e.g., internally developed software, purchased software licenses with multi‑year benefit)."
+    },
+    {
+      "id": 11,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "2.3 This policy does not apply to:",
+      "section_path": "2.3 This policy does not apply to:"
+    },
+    {
+      "id": 12,
+      "page": null,
+      "type": "Title",
+      "text": "a) Inventory",
+      "section_path": "a) Inventory"
+    },
+    {
+      "id": 13,
+      "page": null,
+      "type": "Title",
+      "text": "b) Prepaid expenses with a benefit period shorter than 12 months",
+      "section_path": "b) Prepaid expenses with a benefit period shorter than 12 months"
+    },
+    {
+      "id": 14,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Research and development activities that do not meet capitalization criteria under the applicable accounting framework",
+      "section_path": "b) Prepaid expenses with a benefit period shorter than 12 months"
+    },
+    {
+      "id": 15,
+      "page": null,
+      "type": "ListItem",
+      "text": "3. Capitalization Thresholds",
+      "section_path": "3. Capitalization Thresholds"
+    },
+    {
+      "id": 16,
+      "page": null,
+      "type": "Title",
+      "text": "3.1 Individual tangible assets",
+      "section_path": "3.1 Individual tangible assets"
+    },
+    {
+      "id": 17,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.1.1 Tangible assets are capitalized when:",
+      "section_path": "3.1.1 Tangible assets are capitalized when:"
+    },
+    {
+      "id": 18,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) The total cost of the asset or project is greater than or equal to USD 5,000; and",
+      "section_path": "3.1.1 Tangible assets are capitalized when:"
+    },
+    {
+      "id": 19,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) The asset is expected to provide economic benefit for more than 12 months.",
+      "section_path": "3.1.1 Tangible assets are capitalized when:"
+    },
+    {
+      "id": 20,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.1.2 Tangible assets with a cost below USD 5,000 are normally expensed in the period incurred, unless they are part of a larger project that meets the threshold at the project level.",
+      "section_path": "3.1.2 Tangible assets with a cost below USD 5,000 are normally expensed in the period incurred, unless they are part of a larger project that meets the threshold at the project level."
+    },
+    {
+      "id": 21,
+      "page": null,
+      "type": "Title",
+      "text": "3.2 Asset groups and projects",
+      "section_path": "3.2 Asset groups and projects"
+    },
+    {
+      "id": 22,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.2.1 Related items that form part of a single project (e.g., store remodel, warehouse automation upgrade) should be evaluated together.",
+      "section_path": "3.2.1 Related items that form part of a single project (e.g., store remodel, warehouse automation upgrade) should be evaluated together."
+    },
+    {
+      "id": 23,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.2.2 If the total project cost is greater than or equal to USD 25,000 and the project extends the useful life, capacity, or functionality of an existing asset, the project may be capitalized even if individual components fall below USD 5,000.",
+      "section_path": "3.2.2 If the total project cost is greater than or equal to USD 25,000 and the project extends the useful life, capacity, or functionality of an existing asset, the project may be capitalized even if individual components fall below USD 5,000."
+    },
+    {
+      "id": 24,
+      "page": null,
+      "type": "Title",
+      "text": "3.3 Intangible assets and software",
+      "section_path": "3.3 Intangible assets and software"
+    },
+    {
+      "id": 25,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.3.1 Internally developed software and implementation costs are capitalized when:",
+      "section_path": "3.3.1 Internally developed software and implementation costs are capitalized when:"
+    },
+    {
+      "id": 26,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) The project passes preliminary feasibility (approved business case and design); and",
+      "section_path": "3.3.1 Internally developed software and implementation costs are capitalized when:"
+    },
+    {
+      "id": 27,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) The software is expected to be used for more than 12 months; and",
+      "section_path": "3.3.1 Internally developed software and implementation costs are capitalized when:"
+    },
+    {
+      "id": 28,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) The total project cost is greater than or equal to USD 50,000.",
+      "section_path": "3.3.1 Internally developed software and implementation costs are capitalized when:"
+    },
+    {
+      "id": 29,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "3.3.2 Purchased software licenses are capitalized when:",
+      "section_path": "3.3.2 Purchased software licenses are capitalized when:"
+    },
+    {
+      "id": 30,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) The license term exceeds 12 months; and",
+      "section_path": "3.3.2 Purchased software licenses are capitalized when:"
+    },
+    {
+      "id": 31,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) The upfront payment is greater than or equal to USD 10,000.",
+      "section_path": "3.3.2 Purchased software licenses are capitalized when:"
+    },
+    {
+      "id": 32,
+      "page": null,
+      "type": "ListItem",
+      "text": "4. Capitalization Method and Procedures",
+      "section_path": "4. Capitalization Method and Procedures"
+    },
+    {
+      "id": 33,
+      "page": null,
+      "type": "Title",
+      "text": "4.1 Initial measurement",
+      "section_path": "4.1 Initial measurement"
+    },
+    {
+      "id": 34,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.1.1 Capitalized cost includes:",
+      "section_path": "4.1.1 Capitalized cost includes:"
+    },
+    {
+      "id": 35,
+      "page": null,
+      "type": "Title",
+      "text": "a) Purchase price (net of discounts and rebates)",
+      "section_path": "a) Purchase price (net of discounts and rebates)"
+    },
+    {
+      "id": 36,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Directly attributable costs to bring the asset to the location and condition necessary for its intended use (e.g., installation, configuration, freight)",
+      "section_path": "a) Purchase price (net of discounts and rebates)"
+    },
+    {
+      "id": 37,
+      "page": null,
+      "type": "Title",
+      "text": "c) Non‑refundable taxes and duties",
+      "section_path": "c) Non‑refundable taxes and duties"
+    },
+    {
+      "id": 38,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.1.2 Costs that are not directly attributable (e.g., general overhead, training) are expensed as incurred unless specifically allowed under applicable accounting standards.",
+      "section_path": "4.1.2 Costs that are not directly attributable (e.g., general overhead, training) are expensed as incurred unless specifically allowed under applicable accounting standards."
+    },
+    {
+      "id": 39,
+      "page": null,
+      "type": "Title",
+      "text": "4.2 Subsequent expenditures",
+      "section_path": "4.2 Subsequent expenditures"
+    },
+    {
+      "id": 40,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.2.1 Expenditures that extend the useful life, increase capacity, or improve functionality beyond the original specification may be capitalized as part of the existing asset.",
+      "section_path": "4.2.1 Expenditures that extend the useful life, increase capacity, or improve functionality beyond the original specification may be capitalized as part of the existing asset."
+    },
+    {
+      "id": 41,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.2.2 Routine maintenance, repairs, and minor enhancements that do not meet the above criteria are expensed in the period incurred.",
+      "section_path": "4.2.2 Routine maintenance, repairs, and minor enhancements that do not meet the above criteria are expensed in the period incurred."
+    },
+    {
+      "id": 42,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3 Capital project workflow",
+      "section_path": "4.3 Capital project workflow"
+    },
+    {
+      "id": 43,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3.1 All capital projects must be initiated via an approved capital expenditure (CapEx) request, including:",
+      "section_path": "4.3.1 All capital projects must be initiated via an approved capital expenditure (CapEx) request, including:"
+    },
+    {
+      "id": 44,
+      "page": null,
+      "type": "Title",
+      "text": "a) Project description",
+      "section_path": "a) Project description"
+    },
+    {
+      "id": 45,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Estimated total cost",
+      "section_path": "a) Project description"
+    },
+    {
+      "id": 46,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Business justification and expected benefits",
+      "section_path": "a) Project description"
+    },
+    {
+      "id": 47,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "d) Estimated in‑service date",
+      "section_path": "a) Project description"
+    },
+    {
+      "id": 48,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3.2 The Controller’s Office is responsible for reviewing CapEx requests for compliance with this policy before project codes are created.",
+      "section_path": "4.3.2 The Controller’s Office is responsible for reviewing CapEx requests for compliance with this policy before project codes are created."
+    },
+    {
+      "id": 49,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "4.3.3 Upon completion, the project owner must confirm:",
+      "section_path": "4.3.3 Upon completion, the project owner must confirm:"
+    },
+    {
+      "id": 50,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Actual cost incurred",
+      "section_path": "4.3.3 Upon completion, the project owner must confirm:"
+    },
+    {
+      "id": 51,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "b) Assets placed in service date",
+      "section_path": "4.3.3 Upon completion, the project owner must confirm:"
+    },
+    {
+      "id": 52,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "c) Any unused budget to be released",
+      "section_path": "4.3.3 Upon completion, the project owner must confirm:"
+    },
+    {
+      "id": 53,
+      "page": null,
+      "type": "ListItem",
+      "text": "5. Depreciation and Amortization Guidelines",
+      "section_path": "5. Depreciation and Amortization Guidelines"
+    },
+    {
+      "id": 54,
+      "page": null,
+      "type": "Title",
+      "text": "5.1 Useful lives",
+      "section_path": "5.1 Useful lives"
+    },
+    {
+      "id": 55,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.1.1 Typical useful lives for major asset classes are:",
+      "section_path": "5.1.1 Typical useful lives for major asset classes are:"
+    },
+    {
+      "id": 56,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "a) Leasehold improvements: 5–10 years or lease term, whichever is shorter",
+      "section_path": "5.1.1 Typical useful lives for major asset classes are:"
+    },
+    {
+      "id": 57,
+      "page": null,
+      "type": "Title",
+      "text": "b) Store fixtures and equipment: 3–7 years",
+      "section_path": "b) Store fixtures and equipment: 3–7 years"
+    },
+    {
+      "id": 58,
+      "page": null,
+      "type": "Title",
+      "text": "c) IT hardware: 3–5 years",
+      "section_path": "c) IT hardware: 3–5 years"
+    },
+    {
+      "id": 59,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "d) Internally developed software: 3–5 years",
+      "section_path": "c) IT hardware: 3–5 years"
+    },
+    {
+      "id": 60,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.1.2 Deviations from standard useful lives must be documented and approved by the Controller’s Office.",
+      "section_path": "5.1.2 Deviations from standard useful lives must be documented and approved by the Controller’s Office."
+    },
+    {
+      "id": 61,
+      "page": null,
+      "type": "Title",
+      "text": "5.2 Depreciation basis and method",
+      "section_path": "5.2 Depreciation basis and method"
+    },
+    {
+      "id": 62,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.2.1 Depreciation is calculated on a straight‑line basis over the asset’s estimated useful life, net of estimated residual value.",
+      "section_path": "5.2.1 Depreciation is calculated on a straight‑line basis over the asset’s estimated useful life, net of estimated residual value."
+    },
+    {
+      "id": 63,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.2.2 Depreciation begins when the asset is placed in service (available for its intended use), not when the project is approved or cash is paid.",
+      "section_path": "5.2.2 Depreciation begins when the asset is placed in service (available for its intended use), not when the project is approved or cash is paid."
+    },
+    {
+      "id": 64,
+      "page": null,
+      "type": "Title",
+      "text": "5.3 Impairment and disposals",
+      "section_path": "5.3 Impairment and disposals"
+    },
+    {
+      "id": 65,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.3.1 Assets are reviewed for indicators of impairment at least annually and when events or changes in circumstances suggest that carrying values may not be recoverable.",
+      "section_path": "5.3.1 Assets are reviewed for indicators of impairment at least annually and when events or changes in circumstances suggest that carrying values may not be recoverable."
+    },
+    {
+      "id": 66,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "5.3.2 Gains or losses on disposal are recognized in the period of disposal as the difference between proceeds and net book value.",
+      "section_path": "5.3.2 Gains or losses on disposal are recognized in the period of disposal as the difference between proceeds and net book value."
+    },
+    {
+      "id": 67,
+      "page": null,
+      "type": "ListItem",
+      "text": "6. Recordkeeping and Controls",
+      "section_path": "6. Recordkeeping and Controls"
+    },
+    {
+      "id": 68,
+      "page": null,
+      "type": "Title",
+      "text": "6.1 Fixed asset register",
+      "section_path": "6.1 Fixed asset register"
+    },
+    {
+      "id": 69,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.1.1 All capitalized assets must be recorded in the fixed asset register with:",
+      "section_path": "6.1.1 All capitalized assets must be recorded in the fixed asset register with:"
+    },
+    {
+      "id": 70,
+      "page": null,
+      "type": "Title",
+      "text": "a) Asset ID",
+      "section_path": "a) Asset ID"
+    },
+    {
+      "id": 71,
+      "page": null,
+      "type": "Title",
+      "text": "b) Description",
+      "section_path": "b) Description"
+    },
+    {
+      "id": 72,
+      "page": null,
+      "type": "Title",
+      "text": "c) Location",
+      "section_path": "c) Location"
+    },
+    {
+      "id": 73,
+      "page": null,
+      "type": "Title",
+      "text": "d) In‑service date",
+      "section_path": "d) In‑service date"
+    },
+    {
+      "id": 74,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "e) Cost and accumulated depreciation",
+      "section_path": "d) In‑service date"
+    },
+    {
+      "id": 75,
+      "page": null,
+      "type": "Title",
+      "text": "f) Responsible department",
+      "section_path": "f) Responsible department"
+    },
+    {
+      "id": 76,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.1.2 The fixed asset register is maintained by the Corporate Accounting team.",
+      "section_path": "6.1.2 The fixed asset register is maintained by the Corporate Accounting team."
+    },
+    {
+      "id": 77,
+      "page": null,
+      "type": "Title",
+      "text": "6.2 Documentation",
+      "section_path": "6.2 Documentation"
+    },
+    {
+      "id": 78,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.2.1 Supporting documentation (invoices, contracts, CapEx approvals, project completion certificates) must be retained for at least seven (7) years or longer where required by local regulation.",
+      "section_path": "6.2.1 Supporting documentation (invoices, contracts, CapEx approvals, project completion certificates) must be retained for at least seven (7) years or longer where required by local regulation."
+    },
+    {
+      "id": 79,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.2.2 For software projects, documentation should include project charters, design approvals, and evidence of transition from preliminary to development stage.",
+      "section_path": "6.2.2 For software projects, documentation should include project charters, design approvals, and evidence of transition from preliminary to development stage."
+    },
+    {
+      "id": 80,
+      "page": null,
+      "type": "Title",
+      "text": "6.3 Policy exceptions",
+      "section_path": "6.3 Policy exceptions"
+    },
+    {
+      "id": 81,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.3.1 Exceptions to this policy require written approval from the Controller and the VP of Finance.",
+      "section_path": "6.3.1 Exceptions to this policy require written approval from the Controller and the VP of Finance."
+    },
+    {
+      "id": 82,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "6.3.2 Approved exceptions must be clearly documented and retained with the associated asset file.",
+      "section_path": "6.3.2 Approved exceptions must be clearly documented and retained with the associated asset file."
+    },
+    {
+      "id": 83,
+      "page": null,
+      "type": "ListItem",
+      "text": "7. Review and Updates",
+      "section_path": "7. Review and Updates"
+    },
+    {
+      "id": 84,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "7.1 This policy will be reviewed at least every two years by the Controller’s Office.",
+      "section_path": "7.1 This policy will be reviewed at least every two years by the Controller’s Office."
+    },
+    {
+      "id": 85,
+      "page": null,
+      "type": "NarrativeText",
+      "text": "7.2 Changes to capitalization thresholds or useful lives must be approved by the CFO.",
+      "section_path": "7.2 Changes to capitalization thresholds or useful lives must be approved by the CFO."
+    }
+  ]
+}
