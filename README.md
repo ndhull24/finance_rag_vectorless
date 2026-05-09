@@ -1,127 +1,178 @@
-# Finance Document Intelligence RAG (Hybrid Vectorless + Vector)
+# Finance RAG (Vectorless) – Streamlit + LangChain + Qwen
 
-## Overview
-
-This project is a local, hybrid RAG system for finance teams.
-
-We combine:
-- A **document-intelligence structuring layer** that converts unstructured finance documents into a navigable tree (sections, tables, entities).
-- A **vectorless, reasoning-based retrieval step** that uses document structure to find the most relevant sections.
-- A **traditional vector RAG layer** that uses embeddings for fast, approximate search across the corpus.
-
-The goal: give FP&A, Treasury, and Accounting a copilot that can answer questions about 10‑K/10‑Q filings, internal reports, policies, and contracts with section‑level citations, while keeping everything on‑prem/local.
-
-All components are designed to run locally (Python, open‑source models, local vector DB) with no external APIs by default.
+A small Retrieval-Augmented Generation (RAG) app that lets you chat with finance-related website content using a lightweight **Qwen 0.5B** model, **LangChain**, and **Streamlit**.  
+The app crawls a website, chunks the text, stores embeddings in a local FAISS index, and uses retrieval to answer your questions grounded in that content.
 
 ---
 
-## Core use case
+## Features
 
-> “Finance Document Copilot for FP&A and Treasury: answer questions over internal budgets, management reports, board decks, and external filings; surface relevant sections with traceable reasoning; and support audit/compliance queries.”
-
-Example questions:
-- “What are the main drivers of operating margin compression in FY 2024?”
-- “Which covenants apply to our revolving credit facility?”
-- “Where do we disclose assumptions behind stock‑based compensation expense?”
-- “How did SG&A grow relative to revenue over the last three years, and why?”
+- 🔎 Crawl and index a target website (e.g., finance docs, FAQs, blogs) using LangChain’s website loader.
+- 📚 Chunk and embed text with `sentence-transformers` and store it in **FAISS** locally.
+- 💬 Chat UI built with **Streamlit**.
+- 🤖 Uses **Qwen 0.5B Instruct** as the open‑source LLM for answer generation.
+- 🖥️ Runs fully on your machine (no commercial LLM APIs required if you use local models).
 
 ---
 
-## Architecture (Phase 1)
+## Tech Stack
 
-Phase 1 implements a minimal vertical slice:
-
-1. **Ingestion**
-   - Parse PDF documents (e.g., 10‑K) into elements using `unstructured`.
-   - Store elements as a simple JSON “document tree” with nodes that know their section path and page.
-
-2. **Indexing**
-   - Build embeddings for each node with a local `sentence-transformers` model.
-   - Store embeddings + metadata in a local ChromaDB collection.
-
-3. **Retrieval**
-   - Given a query, run vector search over nodes.
-   - Group results by `doc_name` and `section_path` to approximate structure‑aware retrieval.
-   - Present relevant sections to the user in a CLI interface.
-
-Later phases add:
-- An explicit vectorless traversal over the document tree.
-- A query router between vectorless vs. vector retrieval.
-- A local LLM for answer generation and reasoning.
+- **Frontend**: Streamlit
+- **Orchestration**: LangChain
+- **LLM**: Qwen/Qwen2.5-0.5B-Instruct (Hugging Face)
+- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2`
+- **Vector Store**: FAISS (local)
+- **Language**: Python 3.10+
 
 ---
 
-## Repo structure
+## Project structure
 
 ```text
-finance-rag-hybrid/
-  data/
-    raw/          # Original PDFs / docs
-    processed/    # Parsed JSON "trees"
-  index/
-    chroma/       # Vector DB files
-  src/
-    __init__.py
-    config.py
-    ingest.py
-    structure.py
-    embed_index.py
-    retrieve.py
-    cli_demo.py
-  docs/
-    ARCHITECTURE.md
-    SYSTEM_DESIGN.md
-    ROADMAP.md
-    SETUP.md
-    USAGE.md
-    EVALUATION.md
+.
+├─ app.py           # Streamlit UI (chat with the website)
+├─ ingest.py        # Crawl website and build FAISS index
+├─ rag_chain.py     # Helper to load the retriever / vector store
+├─ requirements.txt # Python dependencies
+├─ .env             # Environment variables (not committed)
+└─ vectorstore/     # Saved FAISS index (created after ingest)
 ```
 
 ---
 
-## Quickstart (Phase 1)
+## Setup
 
-1. Create and activate a virtualenv:
+### 1. Clone the repo
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Windows: venv\Scripts\activate
-   ```
+```bash
+git clone https://github.com/<your-username>/finance_rag_vectorless.git
+cd finance_rag_vectorless
+```
 
-2. Install dependencies:
+### 2. Create and activate a virtual environment
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+python -m venv .venv
+# Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+# macOS / Linux
+source .venv/bin/activate
+```
 
-3. Place 1–3 finance PDFs (e.g., 10‑Ks) into `data/raw/`.
+### 3. Install dependencies
 
-4. Run the ingestion + structuring pipeline:
+```bash
+pip install -r requirements.txt
+```
 
-   ```bash
-   python -m src.structure
-   ```
+If you don’t have a `requirements.txt` yet, a minimal one might look like:
 
-5. Build the vector index:
-
-   ```bash
-   python -m src.embed_index
-   ```
-
-6. Run the CLI demo:
-
-   ```bash
-   python -m src.cli_demo
-   ```
-
-Ask questions like “revenue recognition policy” or “liquidity risk” and the CLI will print the most relevant sections across your filings.
+```text
+streamlit
+langchain
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+transformers
+torch
+accelerate
+python-dotenv
+beautifulsoup4
+```
 
 ---
 
-## Status
+## Configuration
 
-- ✅ Phase 1: ingestion, simple structuring, vector index, CLI retrieval.
-- ⏳ Phase 2: hybrid vectorless + vector retrieval, local LLM answers.
-- ⏳ Phase 3: scale‑out, evaluation, and dashboarding.
+Create a `.env` file in the project root if you need any secrets (for example, a Hugging Face token):
 
-See `docs/ROADMAP.md` for next steps.
+```bash
+HUGGINGFACE_HUB_TOKEN=your_token_here
+```
+
+> Note: The basic setup can work without a token for public models, but a token is recommended for reliability.
+
+In `ingest.py`, set the website you want to index:
+
+```python
+ROOT_URL = "https://example.com"  # change this to your finance site
+```
+
+---
+
+## 1. Ingest website content
+
+Run the ingestion script to crawl the website, split documents, and build the FAISS index:
+
+```bash
+python ingest.py
+```
+
+This will:
+
+- Crawl pages starting from `ROOT_URL` (with a configurable depth).
+- Extract and clean text content.
+- Chunk text into overlapping segments.
+- Compute embeddings.
+- Save a FAISS index to `vectorstore/`.
+
+---
+
+## 2. Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+Then open the URL Streamlit prints in your terminal (typically `http://localhost:8501`) in your browser.
+
+You can now:
+
+- Type questions about the ingested website.
+- See grounded answers generated by Qwen using retrieved context.
+
+---
+
+## How it works (RAG flow)
+
+1. **Crawl & load**: `RecursiveUrlLoader` loads HTML from the target website and extracts visible text.
+2. **Chunk**: `RecursiveCharacterTextSplitter` breaks the text into manageable chunks.
+3. **Embed**: `HuggingFaceEmbeddings` (sentence‑transformers) converts each chunk into a vector.
+4. **Index**: Vectors are stored in a local FAISS index.
+5. **Retrieve**: At query time, the app finds the most similar chunks using FAISS.
+6. **Generate**: Qwen 0.5B receives the retrieved context + your question and generates an answer.
+
+---
+
+## Notes and limitations
+
+- Qwen 0.5B is **small and lightweight**, great for experimentation, but answers can be less detailed or precise than larger models.
+- The app currently:
+  - Works best on static, text-heavy sites (docs, FAQs, blogs).
+  - Assumes English text.
+- You should respect the target website’s `robots.txt` and terms of service before crawling.
+
+---
+
+## Possible improvements
+
+- Add a sidebar input for custom target URLs.
+- Add chat history and better conversation memory.
+- Allow selecting between different models (larger Qwen models, Mistral, etc.).
+- Support multiple websites or document types (PDFs, CSVs, etc.).
+- Deploy to Streamlit Community Cloud or other platforms.
+
+---
+
+## License
+
+Add your preferred license here (e.g., MIT).
+
+---
+
+## Acknowledgements
+
+- [Streamlit – LLM app tutorials](https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/llm-quickstart)
+- [LangChain – RAG and document loaders](https://docs.langchain.com/oss/python/integrations/document_loaders/recursive_url)
+- [FAISS vector store integrations](https://docs.langchain.com/oss/python/integrations/vectorstores/faiss)
