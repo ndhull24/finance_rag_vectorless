@@ -60,18 +60,29 @@ def build_prompt(question: str, hits: List[Tuple[str, Dict]]) -> str:
     )
     return prompt
 
-def generate_answer(question: str, k: int = 8, max_new_tokens: int = 128) -> str:
+def generate_answer(question: str, k: int = 8, max_new_tokens: int = 128):
+    """
+    Returns (answer_text, metrics_dict)
+    """
     try:
         t0 = time.time()
         hits = search(question, k=k)
         if not hits:
             logger.warning(f"No relevant context found for question: {question}")
-            return "I couldn't find any relevant context in the indexed documents."
+            return "I couldn't find any relevant context in the indexed documents.", {
+                "retrieval_time": 0.0,
+                "generation_time": 0.0,
+                "total_time": time.time() - t0,
+                "num_context_chunks": 0,
+                "context_chars": 0,
+            }
 
         tokenizer, model = get_model()
-        prompt = build_prompt(question, hits)
-
         t1 = time.time()
+
+        prompt = build_prompt(question, hits)
+        context_str = "\n\n".join([h[0] for h in hits])
+
         inputs = tokenizer(prompt, return_tensors="pt")
         if torch.cuda.is_available():
             inputs = {k: v.to("cuda") for k, v in inputs.items()}
@@ -87,13 +98,26 @@ def generate_answer(question: str, k: int = 8, max_new_tokens: int = 128) -> str
         t2 = time.time()
         full_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
+        if "Answer:" in full_text:
+            answer = full_text.split("Answer:", 1)[-1].strip()
+        else:
+            answer = full_text.strip()
+
+        metrics = {
+            "retrieval_time": t1 - t0,
+            "generation_time": t2 - t1,
+            "total_time": t2 - t0,
+            "num_context_chunks": len(hits),
+            "context_chars": len(context_str),
+        }
+
         logger.info(
-            f"Timing – retrieval+prompt: {t1 - t0:.2f}s, generation: {t2 - t1:.2f}s, total: {t2 - t0:.2f}s"
+            f"Timing – retrieval: {metrics['retrieval_time']:.2f}s, "
+            f"generation: {metrics['generation_time']:.2f}s, "
+            f"total: {metrics['total_time']:.2f}s"
         )
 
-        if "Answer:" in full_text:
-            return full_text.split("Answer:", 1)[-1].strip()
-        return full_text.strip()
+        return answer, metrics
     except Exception as e:
         logger.error(f"Error generating answer: {str(e)}")
         raise
